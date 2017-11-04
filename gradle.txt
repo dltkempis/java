@@ -1,0 +1,17 @@
+
+run job 
+gradle build
+
+
+run with gradle wrapper
+gradle wrapper --gradle-version 2.13
+
+
+Ref:
+
+How do I get gradle to include jars in my Eclipse Referenced Libraries
+run cmd 
+gradle cleanEclipse eclipse
+
+It depends on how you integrate with Eclipse. If you use Gradle's 'apply plugin: eclipse', run 'gradle cleanEclipse eclipse'. If you use the STS Gradle plugin, right-click the project and choose 'Gradle - Refresh Dependencies'.
+https://discuss.gradle.org/t/how-do-i-get-gradle-to-include-jars-in-my-eclipse-referenced-libraries/3295/2
