@@ -1,8 +1,17 @@
 
+
+
+gradle usage
+
+C:\sandbox\devtools\gradle-3.2\bin\gradle build
+C:\sandbox\devtools\gradle-3.2\bin\gradle wrapper --gradle-version 3.2
+
+How do I get gradle to include jars in my Eclipse Referenced Libraries
+run cmd 
+C:\sandbox\devtools\gradle-3.2\bin\gradle cleanEclipse eclipse
+
 run job 
 gradle build
-
-
 run with gradle wrapper
 gradle wrapper --gradle-version 2.13
 
@@ -15,3 +24,8 @@ gradle cleanEclipse eclipse
 
 It depends on how you integrate with Eclipse. If you use Gradle's 'apply plugin: eclipse', run 'gradle cleanEclipse eclipse'. If you use the STS Gradle plugin, right-click the project and choose 'Gradle - Refresh Dependencies'.
 https://discuss.gradle.org/t/how-do-i-get-gradle-to-include-jars-in-my-eclipse-referenced-libraries/3295/2
+
+
+
+
+
